@@ -1,12 +1,12 @@
 import './App.css';
 import Appbar from "./components/Appbar"
-import Card from "./components/Card"
+import UserCard from './components/UserCard';
 
 function App() {
   return (
     <div className="App">
       <Appbar pageName="React test"/>
-      <Card pageName = "Login"/>
+      <UserCard pageName = "Cadastro"/>
     </div>
   );
 }
